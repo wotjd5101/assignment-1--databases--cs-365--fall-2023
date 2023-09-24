@@ -1,19 +1,35 @@
-Student{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,500;1,6..12,200;1,6..12,500&display=swap');
+
+:root
+{
+  margin: 0 auto;
+  width: 1200px;
+  font: 200 16px 'Nunito Sans', serif;
+}
+
+
+Student::before {
+  content: '' attr(name) '';
+  font-size: 2rem;
+}
+head
+{
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 24px 0;
+}
+
+ Student_Information
+{
+  display: block;
   color: black;
   background-color: white;
   width: 100%;
-
 }
 
-Heading {
-  display: block;
-  color: black;
-  font-size: 40px;
-  background-color: rgb(222, 222, 157);
-  text-align: center;
-}
-
-Name {
+Student
+{
   display: block;
   background-color: bisque;
   border: 1px solid silver;
@@ -22,39 +38,27 @@ Name {
 }
 
 First_name, Middle_name, Last_name, Preferred_name{
-  display: block;
+  
+  display: flex;
   text-align: center;
   color: black;
-}
-
-Information {
-  display: block;
-  background-color: bisque;
-  border: 1px solid silver;
-  margin: 0.5em;
-  padding:0.5em;
+  margin-bottom : 10px;
 }
 
 Student_ID, Email, Phone, Status{
-  display: block;
+  
+  display: flex;
   text-align: center;
   color: black;
-}
-
-
-CSS {
-  display: block;
-  background-color: bisque;
-  border: 1px solid silver;
-  margin: 0.5em;
-  padding:0.5em;
+  margin-bottom : 10px;
 }
 
 GPA, Major, Minor, Current_Status, Advisor, Date, Graduation_date
 {
-  display: block;
+  display: flex;
   text-align: center;
   color: black;
+  margin-bottom : 10px;
 }
 
 

@@ -1,9 +1,39 @@
-{"Studnent":[
-  {"Heading":"Student Profile"},
+{"Studnent-Information":[{"Head":"Student Information"},
 
-  {"Name": [{"First name":"Jaesung", "Middle name":null, "Last  name":"Yang", "Preferred name":"Json"}]},
+  {"Student":[
+    {"name": "Grdon Matthew Sumner", "Name ":[{"First name":"Grdon", "Middle name": "Matthew", "Last name":"Sumner", "Preferred name":"Sting"}]}
+    ,
+    {"Information":[{"Studnet ID":"1234567","Email":"sting@thepolice.com", "Phone":"212.123.4567", "Status":"first year"}]}
+    , {"CSS": [{"GPA":"4.0", "Major":"Music", "Minor": "English", "Current Status": "full-time", "Advisor":"Andy Summers", "Date":"08-25-1969", "Graduate date":"05-01-1973"}]}
 
-  {"Information": [{"Studnet ID":"11111111","Email":"jayang@hartford.edu", "Phone":"(000)-000-0000", "Status":"Senior"}]},
+            ]
+  },
+  {"Student":[
+    {"name": " Kim Thayil", "Name ":[{"First name":"Kim", "Middle name": null, "Last name":"Thayil", "Preferred name":null}]}
+    ,{"Information":[{"Studnet ID":"4567890","Email":"kim@soundgarden.com", "Phone":"213.444.3323", "Status":"second year"}]}
+    ,{"CSS":[{"GPA":"3.0", "Major":"Philosophy", "Minor": " Music", "Current Status": "full-time", "Advisor":"Chris Cornell", "Date":"08-25-1978", "Graduate date":"05-01-1982"}]}
 
-  {"CSS": [{"GPA":"3.5", "Major":"Electrical Engineering", "Minor": "Computer Science", "Current Status": "Full-Time", "Advisor":"Tom Eppes", "Date":"08/29/2023", "Graduate date":"05/15/2024"}]}
+            ]
+  },
+  {"Student":[
+    {"name": " Saul Hudson", "Name ":[{"First name":"Saul", "Middle name": null, "Last name":"Hudson", "Preferred name":"Slash"}]}
+    ,{"Information":[{"Studnet ID":"8302438","Email":"slash@gnr.com", "Phone":"213.456.8392", "Status":"fourth year"}]}
+    ,{"CSS":[{"GPA":"2.0", "Major":"Music", "Minor": " Criminal Justice", "Current Status": "part-time", "Advisor":"Axl Rose", "Date":"08-25-1983", "Graduate date":"05-01-1987"}]}
+
+            ]
+  },
+  {"Student":[
+    {"name": "Emily Kokal", "Name ":[{"First name":"Emily", "Middle name": null, "Last name":"kokal", "Preferred name": null}]}
+    ,{"Information":[{"Studnet ID":"2983928","Email":"emily@warpaint.com", "Phone":"213.123.7654", "Status":"second year"}]}
+    ,{"CSS":[{"GPA":"3.8", "Major":"Political Science", "Minor": "Law", "Current Status": "full-time", "Advisor":"Jenny Lee Lindberg", "Date":"08-25-1998", "Graduate date":"05-01-1988"}]}
+
+            ]
+  },
+  {"Student":[
+    {"name": " Mike Inez", "Name ":[{"First name":"Mike", "Middle name": null, "Last name":"Inez", "Preferred name": null}]}
+    ,{"Information":[{"Studnet ID":"7645726","Email":"mike@aic.com", "Phone":"213.123.7654", "Status":"third year"}]}
+    ,{"CSS":[{"GPA":"4.0", "Major":"Business Management", "Minor": "Math", "Current Status": "full-time", "Advisor":"JJerry Cantrell", "Date":"08-25-1984", "Graduate date":"05-01-1988"}]}
+
+            ]
+  }
 ]}

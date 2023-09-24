@@ -1,0 +1,91 @@
+<!-- 
+  Stduent_Information has two children; head and Student. However, since the Student elements are more than 2, the plus symbol is added to the end of Stduent.
+   -->
+   <!ELEMENT Student_Information (head, Student+)>
+   <!-- 
+     The head element refers to the project name, and #PCDATA reads the statements (project title)
+      -->
+   <!ELEMENT head (#PCDATA)>
+   <!-- 
+     Student element are the slibing with head, and has three childrens; Name, Information and CSS
+      -->
+   <!ELEMENT Student (Name, Information, CSS)>
+   
+   <!-- 
+      Name element has five childrens 
+      -->
+   <!ELEMENT Name (First_name,Middle_name,Last_name,Preferred_name)>
+   <!-- 
+     The each element express a context in the index.xml scripts
+      -->
+   <!ELEMENT First_name (#PCDATA)>
+   <!-- 
+     it displays middle_name of the studnet. If they do not have it, it does not display from the file
+      -->
+   <!ELEMENT Middle_name (#PCDATA)>
+   <!-- 
+     it displays Last name of the studnet. 
+      -->
+   <!ELEMENT Last_name (#PCDATA)>
+   <!-- 
+     it displays Preferred_name of the studnet. If they do not have it, it does not display from the file
+      -->
+   <!ELEMENT Preferred_name (#PCDATA)>
+   <!-- 
+    Information have four children; Student_ID, Email, Phone, Status
+      -->
+   <!ELEMENT Information (Student_ID,Email,Phone,Status)>
+   <!-- 
+     it displays Student_ID of the studnet. 
+      -->
+   <!ELEMENT Student_ID (#PCDATA)>
+   <!-- 
+     it displays email of the studnet. 
+      -->
+   <!ELEMENT Email (#PCDATA)>
+   <!-- 
+     it displays phone number of the studnet. 
+      -->
+   <!ELEMENT Phone (#PCDATA)>
+   <!-- 
+     it displays status of the studnet. 
+      -->
+   <!ELEMENT Status (#PCDATA)>
+   <!-- 
+    CSS have seven children; GPA, Major, Minor, Current_Status, Advisor, Date, Graduation_date
+      -->
+   <!ELEMENT CSS (GPA, Major, Minor, Current_Status, Advisor, Date, Graduation_date)>
+   <!-- 
+     it displays GPA of the studnet. 
+      -->
+   <!ELEMENT GPA (#PCDATA)>
+   <!-- 
+     it displays Major of the studnet. 
+      -->
+   <!ELEMENT Major (#PCDATA)>
+   <!-- 
+     it displays minor of the studnet. 
+      -->
+   <!ELEMENT Minor (#PCDATA)>
+   <!-- 
+     it displays Current_Status of the studnet. 
+      -->
+   <!ELEMENT Current_Status (#PCDATA)>
+   <!-- 
+     it displays Advisor of the studnet. 
+      -->
+   <!ELEMENT Advisor (#PCDATA)>
+   <!-- 
+     it displays enrollment date of the studnet. 
+      -->
+   <!ELEMENT Date (#PCDATA)>
+   <!-- 
+     it displays graduation date of the studnet. 
+      -->
+   <!ELEMENT Graduation_date (#PCDATA)>
+   
+   <!-- 
+     it declares attribue 'name' of element 'Student'. It is required attribute so that the user
+     can find and recognize the student information in the easy way
+      -->
+   <!ATTLIST Student name CDATA #REQUIRED>

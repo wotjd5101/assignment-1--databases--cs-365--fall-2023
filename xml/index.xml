@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type = "text/css" href = "css/style.css"?>
+<!DOCTYPE Student_Information SYSTEM "dtd/student.dtd">
+
+<Student_Information>
+  <head>Student Information</head>
+  <Student name = "Gordon Matthew Sumner">
+
+    <Name>
+      <First_name>First Name: Gordon </First_name>
+      <Middle_name>Middle Name: Matthew</Middle_name>
+      <Last_name>Last Name: Sumner</Last_name>
+      <Preferred_name>Preferred Name: "String"</Preferred_name>
+    </Name>
+
+    <Information>
+      <Student_ID>Stduent ID: 1234567</Student_ID>
+      <Email>Email: sting@thepolice.com</Email>
+      <Phone>Phone Numer: 212.123.4567</Phone>
+      <Status>Year: first year</Status>
+    </Information>
+
+    <CSS>
+      <GPA>GPA:  4.0</GPA>
+      <Major>Major: Music</Major>
+      <Minor>Minor: English</Minor>
+      <Current_Status>Current Status: Full-Time</Current_Status>
+      <Advisor>Advisor: Andy Summers</Advisor>
+      <Date>Date: 08-25-1969</Date>
+      <Graduation_date>Graduation Date: 05-01-1973</Graduation_date>
+    </CSS>
+
+  </Student >
+
+  <Student name = "Kim Thayilr">
+
+    <Name>
+      <First_name>First Name: Kim</First_name>
+      <Middle_name/>
+      <Last_name>Last Name: Thayilr</Last_name>
+      <Preferred_name/>
+    </Name>
+
+    <Information>
+      <Student_ID>Stduent ID: 4567890</Student_ID>
+      <Email>Email: kim@soundgarden.com</Email>
+      <Phone>Phone Numer: 206.123.4567</Phone>
+      <Status>Year: second year</Status>
+    </Information>
+
+    <CSS>
+      <GPA>GPA: 3.0</GPA>
+      <Major>Major: Philosophy</Major>
+      <Minor>Minor: Music</Minor>
+      <Current_Status>Current Status: Full-Time</Current_Status>
+      <Advisor>Advisor: Chris Cornell</Advisor>
+      <Date>Date:  08-25-1978</Date>
+      <Graduation_date>Graduation Date: 05-01-1982</Graduation_date>
+    </CSS>
+
+  </Student>
+
+
+  <Student name = "Saul Hudson">
+
+    <Name>
+      <First_name>First Name: Saul</First_name>
+      <Middle_name/>
+      <Last_name>Last Name: Hudson</Last_name>
+      <Preferred_name>Slash</Preferred_name>
+    </Name>
+
+    <Information>
+      <Student_ID>Stduent ID: 8302438</Student_ID>
+      <Email>Email: slash@gnr.com</Email>
+      <Phone>Phone Numer: 213.456.8392</Phone>
+      <Status>Year: fourth year</Status>
+    </Information>
+
+    <CSS>
+      <GPA>GPA: 2.0</GPA>
+      <Major>Major: Music</Major>
+      <Minor>Minor: Criminal Justice</Minor>
+      <Current_Status>Current Status: part-time</Current_Status>
+      <Advisor>Advisor: Axl Rose</Advisor>
+      <Date>Date: 08-25-1983</Date>
+      <Graduation_date>Graduation Date: 05-01-1987</Graduation_date>
+    </CSS>
+
+  </Student>
+
+
+  <Student name = "Emily Kokal">
+    
+    <Name>
+      <First_name>First Name: Emily</First_name>
+      <Middle_name/>
+      <Last_name>Last Name: Kokal</Last_name>
+      <Preferred_name/>
+    </Name>
+
+    <Information>
+      <Student_ID>Stduent ID: 2983928</Student_ID>
+      <Email>Email: emily@warpaint.com</Email>
+      <Phone>Phone Numer: 213.123.7654</Phone>
+      <Status>Year: third year</Status>
+    </Information>
+
+    <CSS>
+      <GPA>GPA: 3.8</GPA>
+      <Major>Major: Political Science</Major>
+      <Minor>Minor: Law</Minor>
+      <Current_Status>Current Status: full-time</Current_Status>
+      <Advisor>Advisor: Jenny Lee Lindberg</Advisor>
+      <Date>Date: 08-25-1998</Date>
+      <Graduation_date>Graduation Date: 05-01-2002</Graduation_date>
+    </CSS>
+
+  </Student>
+
+  <Student name = "Mike Inez">
+
+    <Name>
+      <First_name>First Name: Mike</First_name>
+      <Middle_name/>
+      <Last_name>Last Name: Inez</Last_name>
+      <Preferred_name/>
+    </Name>
+
+    <Information>
+      <Student_ID>Stduent ID: 7645726</Student_ID>
+      <Email>Email: mike@aic.com</Email>
+      <Phone>Phone Numer: 213.444.3323</Phone>
+      <Status>Year: second year</Status>
+    </Information>
+
+    <CSS>
+      <GPA>GPA: 4.0</GPA>
+      <Major>Major: Business Management</Major>
+      <Minor>Minor: Math</Minor>
+      <Current_Status>Current Status: full-time</Current_Status>
+      <Advisor>Advisor: Jerry Cantrell</Advisor>
+      <Date>Date: 08-25-1984</Date>
+      <Graduation_date>Graduation Date: 05-01-1988</Graduation_date>
+    </CSS>
+
+  </Student>
+ </Student_Information>
