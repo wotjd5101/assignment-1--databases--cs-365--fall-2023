@@ -1,0 +1,9 @@
+{"Studnent":[
+  {"Heading":"Student Profile"},
+
+  {"Name": [{"First name":"Jaesung", "Middle name":null, "Last  name":"Yang", "Preferred name":"Json"}]},
+
+  {"Information": [{"Studnet ID":"11111111","Email":"jayang@hartford.edu", "Phone":"(000)-000-0000", "Status":"Senior"}]},
+
+  {"CSS": [{"GPA":"3.5", "Major":"Electrical Engineering", "Minor": "Computer Science", "Current Status": "Full-Time", "Advisor":"Tom Eppes", "Date":"08/29/2023", "Graduate date":"05/15/2024"}]}
+]}
